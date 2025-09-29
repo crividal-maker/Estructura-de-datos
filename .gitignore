@@ -1,0 +1,16 @@
+# Carpetas del sistema
+.vscode/
+.ugit/
+
+# Binarios/ejecutables de Windows
+*.exe
+
+# Archivos de compilación temporales
+*.o
+*.obj
+*.dll
+*.pdb
+
+# Archivos de respaldo
+*~
+*.bak
