@@ -124,7 +124,7 @@ void show_log(void) {
     for (int i = version_count - 1; i >= 0; i--) {
         printf("commit %s%s\n", versions[i].id,
                (i == version_count - 1) ? " (HEAD -> master)" : "");
-        printf("Author: Tu Nombre\n");
+        printf("Author: Cristóbal Vidal <cristobal@example.com>\n");
         printf("Date: %s\n", versions[i].fecha);
         printf("%s\n\n", versions[i].mensaje);
     }
